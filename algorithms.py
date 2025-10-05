@@ -18,4 +18,15 @@ def find_max(numbers):
 
 print(find_max([3, 7, 2, 9, 5]))
 
+
+def linear_search(numbers, target):
+    if target in numbers:
+     return True
+    else :
+     return False
+    
+print (linear_search([1,2,3,4,5], 3))        
+        
+
+
   
